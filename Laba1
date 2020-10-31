@@ -5,7 +5,7 @@ while True:
     y = float(input("Enter second number:"))
     oper = input("Enter operation:")
     res = None
-
+    
     if oper == "+":
         res = x+y
     elif oper =="-":
@@ -20,4 +20,8 @@ while True:
         print("ERROR")
     if res is not None:
         print("Result:",res)
+    ex = input("Exit(yes-no):")
+    if ex == "Yes":
+        print("Goodbye")
+        break
 
