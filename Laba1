@@ -21,7 +21,7 @@ while True:
     if res is not None:
         print("Result:",res)
     ex = input("Exit(yes-no):")
-    if ex == "Yes":
+    if ex == "yes":
         print("Goodbye")
         break
 
