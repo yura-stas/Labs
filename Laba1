@@ -1,3 +1,23 @@
-print ("Hello World")
+//print ("Hello World")
 
+while True:
+    x = float(input("Enter first number:"))
+    y = float(input("Enter second number:"))
+    oper = input("Enter operation:")
+    res = None
+
+    if oper == "+":
+        res = x+y
+    elif oper =="-":
+     res = x-y
+    elif oper == "*":
+     res = x*y
+    elif oper == "/":
+     res = x/y
+    elif oper == "**":
+     res = x**y
+    else:
+        print("ERROR")
+    if res is not None:
+        print("Result:",res)
 
