@@ -26,9 +26,10 @@ while True:
         break
 
 while True:
-    for i in input("Enter word:"):
-     print(i*4,end='')
-      ex = input("Exit(yes-no):")
+    w = str(input('Enter your word:'))
+    for i in w:
+     print(i*2,end='')
+    ex = input("Exit(yes-no):")
     if ex == "yes":
         print("Goodbye")
         break
