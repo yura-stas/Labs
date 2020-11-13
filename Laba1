@@ -25,3 +25,17 @@ while True:
         print("Goodbye")
         break
 
+while True:
+    for i in input("Enter word:"):
+     print(i*4,end='')
+      ex = input("Exit(yes-no):")
+    if ex == "yes":
+        print("Goodbye")
+        break
+        
+        while True:
+   str = input("Enter your word:")
+   print(str[::-1])
+    if ex == "yes":
+        print("Goodbye")
+        break
