@@ -40,3 +40,20 @@ while True:
     if ex == "yes":
         print("Goodbye")
         break
+
+alphabet = "abcdefghijklmnopqrstuvwocyzabcdefghijklanopqrstuvwxyz"
+
+enter = input("Please enter your messange:")
+key = int(input("Please enter a key (number from 1-25): "))
+
+enter = enter.lower()
+encrypted = ""
+
+for L in enter:
+    p = alphabet.find(L)
+    np = p + key
+    if L in alphabet:
+        encrypted  = encrypted + alphabet[np]
+    else:
+        encrypted = encrypted + L
+print("Your cipher is:", encrypted)
