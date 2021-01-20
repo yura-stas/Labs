@@ -34,10 +34,12 @@ while True:
         print("Goodbye")
         break
         
-        while True:
+while True:
    str = input("Enter your word:")
    print(str[::-1])
-    if ex == "yes":
+   ex = input("Exit(yes-no):")
+   if ex == "yes":
+    
         print("Goodbye")
         break
 
